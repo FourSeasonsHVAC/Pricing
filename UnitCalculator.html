@@ -38,46 +38,33 @@
       border-style: none;
       background-color: rgb(100,200,100);
     }
-    
-    
-    
-.dropdown {
-    position: relative;
-    display: inline-block;
-    z-index: 999;
-    
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-    
-  
-    
-    
-    
+    .dropdown {  /* CSS for Dropdown Menus */
+      position: relative;
+      display: inline-block;
+      z-index: 999;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #f1f1f1
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    } /* End of CSS for Dropdown */
   </style>
   <script></script>
 </head>
@@ -101,13 +88,12 @@
       <div class='cell col-xs-2 text-center prices'><p>Financing</p></div>
       <div class='cell modelNumber col-xs-2 text-center dropdown'>
         <button class="dropbtn modelNumber">Model Number</button>
-        <div class='dropdown-content'>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <div class='dropdown-content'>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         </div>
-      </div>
-      
       <div class='cell col-xs-2 text-center prices'><p>Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rebated Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rock Bottom Price</p></div>
@@ -117,7 +103,14 @@
     <div class='unit' id='airCondition'>
       <div class='cell unitType col-xs-2 text-center'><p>Air Conditioner 2</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Financing</p></div>
-      <div class='cell col-xs-2 text-center modelNumber'><p>Model Number</p></div>
+      <div class='cell modelNumber col-xs-2 text-center dropdown'>
+        <button class="dropbtn modelNumber">Model Number</button>
+          <div class='dropdown-content'>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
       <div class='cell col-xs-2 text-center prices'><p>Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rebated Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rock Bottom Price</p></div>
@@ -127,7 +120,14 @@
     <div class='unit' id='furnace'>
       <div class='cell unitType col-xs-2 text-center'><p>Furnace 1</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Financing</p></div>
-      <div class='cell col-xs-2 text-center modelNumber'><p>Model Number</p></div>
+      <div class='cell modelNumber col-xs-2 text-center dropdown'>
+        <button class="dropbtn modelNumber">Model Number</button>
+          <div class='dropdown-content'>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
       <div class='cell col-xs-2 text-center prices'><p>Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rebated Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rock Bottom Price</p></div>
@@ -137,7 +137,14 @@
     <div class='unit' id='furnace'>
       <div class='cell unitType col-xs-2 text-center'><p>Furnace 2</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Financing</p></div>
-      <div class='cell col-xs-2 text-center modelNumber'><p>Model Number</p></div>
+      <div class='cell modelNumber col-xs-2 text-center dropdown'>
+        <button class="dropbtn modelNumber">Model Number</button>
+          <div class='dropdown-content'>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
       <div class='cell col-xs-2 text-center prices'><p>Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rebated Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rock Bottom Price</p></div>
@@ -147,7 +154,14 @@
     <div class='unit' id='boiler'>
       <div class='cell unitType col-xs-2 text-center'><p>Boiler</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Financing</p></div>
-      <div class='cell col-xs-2 text-center modelNumber'><p>Model Number</p></div>
+      <div class='cell modelNumber col-xs-2 text-center dropdown'>
+        <button class="dropbtn modelNumber">Model Number</button>
+          <div class='dropdown-content'>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
       <div class='cell col-xs-2 text-center prices'><p>Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rebated Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rock Bottom Price</p></div>
