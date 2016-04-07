@@ -8,6 +8,7 @@
       margin-top: 100px;
       background-color: blue;
       height: 100vh;
+      border-radius: 10px;
     }
     .prices {
       background-color: white;
@@ -19,6 +20,13 @@
     .unit {
       padding: 20px;
     }
+    .unitType {
+      color: white;
+      font-size: 20px;
+    }
+    .modelNumber {
+      background-color: rgb(100,200,100);
+    }
     
   </style>
   <script></script>
@@ -26,9 +34,9 @@
 <body>
   <div class='container'>
     <div class='unit' id='airCondition'>
-      <div class='cell col-xs-2 text-center'><p>Air Conditioning</p></div>
-      <div class='cell col-xs-2 text-center'><p>Financing</p></div>
-      <div class='cell col-xs-2 text-center'><p>Model Number</p></div>
+      <div class='cell unitType col-xs-2 text-center'><p>Air Conditioning</p></div>
+      <div class='cell col-xs-2 text-center prices'><p>Financing</p></div>
+      <div class='cell col-xs-2 text-center modelNumber'><p>Model Number</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rebated Price</p></div>
       <div class='cell col-xs-2 text-center prices'><p>Rock Bottom Price</p></div>
