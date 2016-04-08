@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
-  $('#ac').click(function() {
-    $('#ac1ModelNum').html('clicked');
+  $('#ac').click(function(item) {
+    console.log(item)
+    
   });
 });
