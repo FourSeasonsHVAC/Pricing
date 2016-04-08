@@ -5,6 +5,7 @@ $(document).ready(function(){
     
     $('a').click(function() {
       console.log($('a').index(this))
+    console.log('Whatsup')
   });
   });
   
