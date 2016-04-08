@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
   $('#ac').click(function(item) {
-    console.log(item.value);
+    console.log(item.id);
     
   });
 });
