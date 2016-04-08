@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
   $('#ac').click(function() {
-    $('.dropbtn').html('clicked');
+    $('#ac1ModelNum').html('clicked');
   });
 });
