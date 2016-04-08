@@ -1,7 +1,6 @@
 
 $(document).ready(function(){
   $('#ac').click(function(item) {
-    console.log(item.target.id);
-    
+    $('#ac').html(item.target.id)
   });
 });
